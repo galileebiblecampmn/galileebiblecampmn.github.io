@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="uk-light" uk-slideshow="ratio: 7:3">
+  <ul class="uk-slideshow-items">
+    <li>
+      <img src="/assets/images/carl-heyerdahl-56022-unsplash.jpg" alt="" uk-cover>
+      <div class="uk-position-center uk-position-small">
+        <h1 class="uk-heading-primary">Welcome to Galilee Bible Camp</h1>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container">
+    <div class="uk-text-center">
+      <h1>About Galilee Bible Camp</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="uk-section uk-section-primary">
+  <div class="uk-container">
+    <h1>Upcoming Events</h1>
+    {% for item in site.events %}
+      {{ item.content }}
+    {% endfor %}
+  </div>
+</div>
