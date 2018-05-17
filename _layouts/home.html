@@ -26,7 +26,7 @@ layout: default
   <div class="uk-container">
     <h1>Upcoming Events</h1>
     {% for item in site.events %}
-      {{ item.content }}
+      <a href="{{ item.url |relevant_url }}">{{ item.title }}</a>
     {% endfor %}
   </div>
 </div>

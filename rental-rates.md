@@ -1,6 +1,7 @@
 ---
 title: "Rentals"
 layout: page
+order: 2
 ---
 
 ### Campsites

@@ -21,8 +21,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   The camp is on a site of about 10 acres with a dock on the shore of the lake.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown

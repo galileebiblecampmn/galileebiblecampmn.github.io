@@ -1,9 +1,9 @@
 <header>
 
-  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign default_paths = site.pages | sort: 'order'| map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-  <nav class="uk-navbar-container">
+  <nav class="uk-navbar-container uk-visible@m">
     
     <div class="uk-container">
       <div uk-navbar>
@@ -15,12 +15,12 @@
         {%- if page_paths -%}
           <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-              <li class="uk-active"><a href="{{ "/" | relative_url }}">Home</a></li>
+              <li class="{% if page.url == "/" %} uk-active{% endif %}"><a href="{{ "/" | relative_url }}">Home</a></li>
               {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <li>
-                  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- assign menu_item = site.pages | where: "path", path | first -%}
+                {%- if menu_item.title -%}
+                <li class="{% if page.url == menu_item.url %} uk-active{% endif %}">
+                  <a class="page-link" href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
                 </li>
                 {%- endif -%}
               {%- endfor -%}
@@ -32,4 +32,33 @@
     </div>
 
   </nav>
+
+  <nav class="uk-navbar-container uk-hidden@m" uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+    <div class="uk-navbar-right">
+      <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
+    </div>
+  </nav>
+
+
+  <div id="offcanvas-nav" uk-offcanvas>
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+      {%- if page_paths -%}
+      <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+          <li class="{% if page.url == "/" %} uk-active{% endif %}"><a href="{{ "/" | relative_url }}">Home</a></li>
+          {%- for path in page_paths -%}
+            {%- assign menu_item = site.pages | where: "path", path | first -%}
+            {%- if menu_item.title -%}
+            <li class="{% if page.url == menu_item.url %} uk-active{% endif %}">
+              <a class="page-link" href="{{ menu_item.url | relative_url }}">{{ menu_item.title | escape }}</a>
+            </li>
+            {%- endif -%}
+          {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </div>
+  </div>
 </header>
