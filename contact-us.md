@@ -21,7 +21,7 @@ order: 5
         </ul>
     </div>
     <div>
-        <form class="uk-form-stacked" action="https://formspree.io/your@email.com" method="POST">
+        <form class="uk-form-stacked" action="https://formspree.io/galileebiblecampmn@gmail.com" method="POST">
             <fieldset class="uk-fieldset">
                 <div class="uk-margin">
                     <label class="uk-form-label" for="name">Name</label>
