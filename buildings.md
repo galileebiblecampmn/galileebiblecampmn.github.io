@@ -8,23 +8,23 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Speakers Cabin](/assets/images/speakers_cabin.JPG) 
+![Speakers Cabin](/assets/images/speakers_cabin.jpg) 
 
-![Speakers Cabin 2](/assets/images/speakers_cabin-1.JPG)
+![Speakers Cabin 2](/assets/images/speakers_cabin-1.jpg)
 
 </div>
 
 **The Girls Dorm** has 20 rooms accommodating 84 people, 3 bathrooms with showers.
 
-![Girls dorm](/assets/images/girls_dorm.JPG)
+![Girls dorm](/assets/images/girls_dorm.jpg)
 
 **The Boys Dorm** has 8 rooms with double beds. The other section of the dorm has 14 rooms and can accommodate 50 people. There are 4 bathrooms with showers. The entire building is winterized for cold season use.
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Boys dorm](/assets/images/Boys_dorm.JPG) 
+![Boys dorm](/assets/images/Boys_dorm.jpg) 
 
-![Girls dorm 2](/assets/images/girls_dorm-1.JPG)
+![Girls dorm 2](/assets/images/girls_dorm-1.jpg)
 
 </div>
 
@@ -32,9 +32,9 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Cooks cabin](/assets/images/cooks_cabin.JPG) 
+![Cooks cabin](/assets/images/cooks_cabin.jpg) 
 
-![Cooks cabin](/assets/images/cooks_cabin-1.JPG)
+![Cooks cabin](/assets/images/cooks_cabin-1.jpg)
 
 </div>
 
@@ -42,9 +42,9 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Staff Cabin](/assets/images/Staff_cabin.JPG) 
+![Staff Cabin](/assets/images/Staff_cabin.jpg) 
 
-![Staff Cabin](/assets/images/staff_cabin_-1.JPG)
+![Staff Cabin](/assets/images/staff_cabin_-1.jpg)
 
 </div>
 
@@ -52,9 +52,9 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Bath House](/assets/images/Bath_house.JPG) 
+![Bath House](/assets/images/Bath_house.jpg) 
 
-![Bath House 2](/assets/images/bath_house-1.JPG)
+![Bath House 2](/assets/images/bath_house-1.jpg)
 
 </div>
 
@@ -62,13 +62,13 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Dining Hall](/assets/images/dining_hall.JPG) 
+![Dining Hall](/assets/images/dining_hall.jpg) 
 
-![Dining Hall 2](/assets/images/dining_hall-4.JPG)
+![Dining Hall 2](/assets/images/dining_hall-4.jpg)
 
-![Dining Hall 3](/assets/images/dining_hall-1.JPG) 
+![Dining Hall 3](/assets/images/dining_hall-1.jpg) 
 
-![Dining Hall 4](/assets/images/dining_hall-2.JPG)
+![Dining Hall 4](/assets/images/dining_hall-2.jpg)
 
 </div>
 
@@ -76,9 +76,9 @@ order: 3
 
 <div class="uk-grid uk-child-width-1-2@m uk-child-width-1-1" uk-grid markdown="1">
 
-![Cahpel](/assets/images/chapel-1.JPG) 
+![Cahpel](/assets/images/chapel-1.jpg) 
 
-![Chapel 2](/assets/images/chapel-2.JPG)
+![Chapel 2](/assets/images/chapel-2.jpg)
 
 </div>
 
