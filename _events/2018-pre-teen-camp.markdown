@@ -1,16 +1,16 @@
 ---
-title: "Teen Camp"
-start-date: 2018-06-19
-end-date: 2018-06-24
+title: "Pre-Teen"
+start-date: 2018-06-24
+end-date: 2018-06-28
 ---
-June 19 - 24, 2018
+June 24 - 28, 2018
 #### Deans:
-Scott Erickson 218-242-4786  
-Pastor LeRow Peterson 218 782-2249
+Pastor Todd Erickson 612-916-1904  
+Pastor Irvin Schmitke 218-681-8213
 #### Evening Speaker:
 Seminarian Bryce McMinn
 #### Bible Study Leaders:
-District Pastors
+Camp Deans
 
 #### Cost/Payment 
 Pre-registration by June 3  

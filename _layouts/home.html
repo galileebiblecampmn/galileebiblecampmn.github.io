@@ -14,19 +14,45 @@ layout: default
 </div>
 
 <div class="uk-section uk-section-default">
-  <div class="uk-container">
+  <div class="uk-container uk-container-small">
     <div class="uk-text-center">
       <h1>About Galilee Bible Camp</h1>
+      <img src="assets/images/1002884_015.JPG" alt="Galilee Bible Camp">
       <p>{{ site.description }}</p>
     </div>
   </div>
 </div>
 
 <div class="uk-section uk-section-primary">
-  <div class="uk-container">
+  <div class="uk-container uk-container-small">
+    <div class="uk-text-center">
+      <h1>Volunteers</h1>
+      <p>There is always need for volunteer work at the camp. Building maintenance is always an ongoing effort. Upgrades to buildings and yard is a never ending process. If you would like to work at the camp and don't know what the current needs are please contact Curtis Thompson at 218-874-7945 to get the work activities list.</p>
+    </div>
+  </div>
+</div>
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container uk-container-small">
     <h1>Upcoming Events</h1>
-    {% for item in site.events %}
-      <a href="{{ item.url |relevant_url }}">{{ item.title }}</a>
-    {% endfor %}
+      <table class="uk-table uk-table-divider">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Dates</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% assign sorted = site.events | sort: 'start-date' %}
+          {% for item in sorted %}
+            <tr>
+              <td>{{ item.title }}</td>
+              <td>{{ item.start-date | date: "%B %d" }} - {{ item.end-date | date: "%d, %Y"}}</td>
+              <td><a class="uk-link" href="{{ item.url |relevant_url }}">Learn More</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
   </div>
 </div>

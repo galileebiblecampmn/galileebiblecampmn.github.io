@@ -26,19 +26,19 @@ order: 5
                 <div class="uk-margin">
                     <label class="uk-form-label" for="name">Name</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" type="text" name="name" placeholder="John Smith">
+                        <input class="uk-input" type="text" name="name" placeholder="John Smith" required>
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label for="_replyto" class="uk-form-label">Email</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" type="email" name="_replyto" placeholder="jsmith@example.com">
+                        <input class="uk-input" type="email" name="_replyto" placeholder="jsmith@example.com" required>
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label for="message" class="uk-form-label">Message</label>
                     <div class="uk-form-controls">
-                        <textarea name="message" class="uk-textarea" placeholder="Include a message"></textarea>
+                        <textarea name="message" class="uk-textarea" placeholder="Include a message" required></textarea>
                     </div>
                 </div>
                 <input type="hidden" name="_subject" value="Contact Form Submission from GalileeBibleCampMN.org" />

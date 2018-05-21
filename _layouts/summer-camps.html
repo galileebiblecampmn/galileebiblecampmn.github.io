@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="uk-section uk-section-default">
+  <div class="uk-container uk-container-small">
+    <article class="post">
+    
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+      </header>
+    
+      <div class="post-content">
+          {{ page.content }}
+        <table class="uk-table uk-table-divider">
+            <thead>
+                <tr>
+                <th>Event</th>
+                <th>Dates</th>
+                <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% assign sorted = site.events | sort: 'start-date' %}
+                {% for item in sorted %}
+                <tr>
+                    <td>{{ item.title }}</td>
+                    <td>{{ item.start-date | date: "%B %d" }} - {{ item.end-date | date: "%d, %Y"}}</td>
+                    <td><a class="uk-link" href="{{ item.url |relevant_url }}">Learn More</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+      </div>
+    
+    </article>
+  </div>
+</div>
