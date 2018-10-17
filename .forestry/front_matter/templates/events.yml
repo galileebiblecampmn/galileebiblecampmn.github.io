@@ -1,6 +1,5 @@
 ---
-pages:
-- _events/2018-teen-camp.markdown
+label: Events
 hide_body: false
 is_partial: false
 fields:
@@ -29,3 +28,8 @@ fields:
   type: text
   hidden: false
   default: page
+pages:
+- _events/2018-pre-teen-camp.markdown
+- _events/2018-family-camp.markdown
+- _events/2018-bible-camp-sunday.markdown
+- _events/2018-teen-camp.markdown
