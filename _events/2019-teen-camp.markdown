@@ -3,7 +3,7 @@ title: "Teen Camp"
 start-date: 2019-06-18
 end-date: 2019-06-23
 ---
-June 18 - 23, 2018
+June 18 - 23, 2019
 #### Deans:
 Scott Erickson 218-242-4786  
 #### Evening Speaker:
