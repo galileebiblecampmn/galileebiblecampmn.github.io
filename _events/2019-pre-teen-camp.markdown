@@ -3,7 +3,7 @@ title: "Pre-Teen"
 start-date: 2019-06-23
 end-date: 2019-06-27
 ---
-June 23 - 27, 2018
+June 23 - 27, 2019
 #### Deans:
 Pastor Todd Erickson 612-916-1904  
 Pastor Irvin Schmitke 218-681-8213
