@@ -21,7 +21,7 @@ order: 5
         </ul>
     </div>
     <div>
-        <form class="uk-form-stacked" netlify>
+        <form class="uk-form-stacked" name="Contact Us" data-netlify="true">
             <fieldset class="uk-fieldset">
                 <div class="uk-margin">
                     <label class="uk-form-label" for="name">Name</label>
@@ -41,7 +41,6 @@ order: 5
                         <textarea name="message" class="uk-textarea" placeholder="Include a message" required></textarea>
                     </div>
                 </div>
-                <input type="hidden" name="_subject" value="Contact Form Submission from GalileeBibleCampMN.org" />
                 <input class="uk-button uk-button-primary" type="submit" value="Send">
             </fieldset>
         </form>
