@@ -55,21 +55,3 @@ Donald Christianson
 P.O. Box 3 Greenbush, MN 56726
 </div>
 </div>
-
-### Dates already taken for 2018  
-April 13-14 Men Alive Retreat  
-May 3-6 Scrapbooking (Les aSchmechel)  
-May 25-28 Camp Rama  
-June 3 Fundraiser for Galilee Bible Camp (Concert and Lunch)  
-June 15-18 Larson Reunion  
-June 19-23 District Teen Camp  
-June 24 Bible Camp Sunday  
-June 25-28 District Preteen Camp  
-July 9-13 AFLC Family Camp  
-July 26-27 4-H  
-July 29-Aug 4 Community Church (TRF)  
-August 5-7 R-H  
-August 10-12 Nordine Reunion  
-August 24-26 Grave Evangelical Strathcona  
-September 12-16 Quilt Smore (Judy Magnussen)  
-October 4-7 Scrapbooking
