@@ -8,7 +8,7 @@ June 28 - July 02, 2020
 
 #### Deans:
 
-Pastor Todd Erickson 218-463-1243
+Pastor Todd Erickson 218-463-1243  
 Pastor Irv Schmitke 218-681-8213
 
 #### Evening Speaker:
