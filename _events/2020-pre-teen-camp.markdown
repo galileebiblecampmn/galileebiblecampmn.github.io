@@ -20,8 +20,8 @@ Seminarian Scott Erickson
 Pre-registration by June 9th is preferred.  
 Make checks payable to:  
 NW MN District Bible Camp  
-Teen Camp (Finished 7th grade–12th grade): $155  
-After June 9th: $165
+Pre-Teen Camp (4th–6th grades) $140  
+After June 9th $150
 
 Mail Payments to:  
 Dr. Lyle Mattson  
