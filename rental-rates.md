@@ -55,3 +55,16 @@ Donald Christianson
 P.O. Box 3 Greenbush, MN 56726
 </div>
 </div>
+
+### Dates already taken for 2021  
+April 9-10 Men Alive Retreat  
+May 6-9 Scrapbooking   
+June 19-20 Wedding  
+June 22-26 Teen Camp  
+June 27 Bible Camp Sunday  
+June 28-July 1 Preteen Camp  
+July 14-18 Family Camp  
+August 3-5 4H   
+August 13-15 Strathcona Group  
+August 23-26 Scrapbooking
+October 29-November 3 Quilters
