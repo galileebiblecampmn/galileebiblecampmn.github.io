@@ -1,5 +1,5 @@
 ---
-title: "History"
+title: 'History'
 layout: page
 order: 4
 ---
@@ -14,7 +14,7 @@ The dining hall was the first building constructed. The cornerstone was laid on 
 
 #### 1954
 
-During 1954 the boy’s dorm was being built when a serious wind and hail storm damaged the building. The building was rebuilt in the fall of 1954. Camping still took place during 1954. A tent was used for the chapel. The other buildings have been added throughout the years
+During 1954 the girl's dorm was being built when a serious wind and hail storm damaged the building. The building was rebuilt in the fall of 1954. Camping still took place during 1954. A tent was used for the chapel. The other buildings have been added throughout the years
 
 #### 1956 - 1959
 
