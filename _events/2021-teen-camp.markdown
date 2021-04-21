@@ -12,7 +12,7 @@ Pastor David Niemela 320-469-7392
 
 #### Evening Speaker:
 
-Seminarian Joe Frech
+Pastor Karl Anderson
 
 #### Online Registration
 
