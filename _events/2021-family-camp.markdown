@@ -11,10 +11,15 @@ July 14 - 18, 2021
 Camp begins 5:00 pm July 14 - Noon July 18
 
 <4 Free
+
 4-11 $76.00
+
 12-19 $100.00
+
 Adult $120.00
+
 Max Family 360.00
+
 Daily rates available
 
 No preregistration
