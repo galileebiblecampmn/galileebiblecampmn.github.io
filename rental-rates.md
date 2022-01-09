@@ -1,8 +1,9 @@
 ---
-title: "Rentals"
+title: 'Rentals'
 layout: page
 order: 2
 ---
+
 <div class="uk-grid">
 <div class="uk-width-2-3@m uk-width-1-1">
     <table class="uk-table uk-table-divider uk-table-small uk-table-responsive">
@@ -15,7 +16,7 @@ order: 2
         <tbody>
             <tr>
                 <td>Campsites with electricty only (20 sites)</td>
-                <td>Call for availability</td>
+                <td>$15/day</td>
             </tr>
             <tr>
                 <td>Campsites with electricty, water, and sewer (10 sites)</td>
@@ -53,18 +54,20 @@ Donald Christianson
 218-782-2706 or 218-689-7438 cell
 
 P.O. Box 3 Greenbush, MN 56726
+
 </div>
 </div>
 
-### Dates already taken for 2021  
-April 9-10 Men Alive Retreat  
-May 6-9 Scrapbooking   
-June 19-20 Wedding  
-June 22-26 Teen Camp  
-June 27 Bible Camp Sunday  
-June 28-July 1 Preteen Camp  
-July 14-18 Family Camp  
-August 3-5 4H   
-August 13-15 Strathcona Group  
-August 23-26 Scrapbooking
-October 29-November 3 Quilters
+### Dates already taken for 2022
+
+April 23 Men Alive Retreat  
+May 4-8 Scrapbooking  
+June 21-25 Teen Camp  
+June 26 Bible Camp Sunday  
+June 27-30 Preteen Camp  
+July 1-4 Reunion  
+July 6-10 Family Camp  
+August 5-7 Reunion  
+August 12-14 Strathcona Group  
+September 21-25 Quilters Retreat  
+September 28 - October 2 Scrapbooking
