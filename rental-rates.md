@@ -62,11 +62,14 @@ P.O. Box 3 Greenbush, MN 56726
 
 April 23 Men Alive Retreat  
 May 4-8 Scrapbooking  
+June 17-20 Reunion  
 June 21-25 Teen Camp  
 June 26 Bible Camp Sunday  
 June 27-30 Preteen Camp  
 July 1-4 Reunion  
 July 6-10 Family Camp  
+July 29-30 WMF  
+August 1-3 4H  
 August 5-7 Reunion  
 August 12-14 Strathcona Group  
 September 21-25 Quilters Retreat  
