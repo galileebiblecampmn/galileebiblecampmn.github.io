@@ -18,6 +18,8 @@ Rates:
 | Adult   | $40   | $130   |
 | Family  | $105  | $380   |
 
+{: .uk-table .uk-table-divider .uk-table-small .uk-table-responsive}
+
 **Let us know you’re coming!**
 
 Please RSVP in advance to help us plan meals and lodging!
