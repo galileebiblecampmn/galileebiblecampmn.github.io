@@ -17,7 +17,6 @@ Rates:
 | 12-19   | $35   | $110   |
 | Adult   | $40   | $130   |
 | Family  | $105  | $380   |
-
 {: .uk-table .uk-table-divider .uk-table-small .uk-table-responsive}
 
 **Let us know you’re coming!**
