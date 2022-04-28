@@ -8,7 +8,9 @@ July 6 - 10, 2022
 
 #### Registration
 
-| Rates:  | Daily | Weekly |
+Rates:
+
+|         | Daily | Weekly |
 | ------- | ----- | ------ |
 | Under 4 | Free  | Free   |
 | 4-11    | $29   | $86    |
