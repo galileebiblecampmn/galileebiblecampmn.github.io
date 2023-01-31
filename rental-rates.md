@@ -60,17 +60,16 @@ P.O. Box 3 Greenbush, MN 56726
 
 ### Dates already taken for 2022
 
-April 23 Men Alive Retreat  
-May 4-8 Scrapbooking  
-June 17-20 Reunion  
-June 21-25 Teen Camp  
-June 26 Bible Camp Sunday  
-June 27-30 Preteen Camp  
-July 1-4 Reunion  
-July 6-10 Family Camp  
-July 29-30 WMF  
-August 1-3 4H  
-August 5-7 Reunion  
-August 12-14 Strathcona Group  
-September 21-25 Quilters Retreat  
-September 28 - October 2 Scrapbooking
+April 15 Men Alive Retreat  
+May 3-7 Scrapbooking  
+June 4 Fundraiser  
+June 9-11 Wedding  
+June 20-24 Teen Camp  
+June 25 Bible Camp Sunday  
+June 26-29 Preteen Camp  
+July 12-16 Family Camp  
+July 28-29 WMF  
+July 31 - August 4 4H  
+August 11-13 Strathcona Group  
+September 20-24 Quilters Retreat  
+September 27 - October 1 Scrapbooking  
