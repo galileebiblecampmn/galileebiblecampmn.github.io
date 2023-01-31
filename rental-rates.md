@@ -58,7 +58,7 @@ P.O. Box 3 Greenbush, MN 56726
 </div>
 </div>
 
-### Dates already taken for 2022
+### Dates already taken for 2023
 
 April 15 Men Alive Retreat  
 May 3-7 Scrapbooking  
@@ -72,4 +72,4 @@ July 28-29 WMF
 July 31 - August 4 4H  
 August 11-13 Strathcona Group  
 September 20-24 Quilters Retreat  
-September 27 - October 1 Scrapbooking  
+September 27 - October 1 Scrapbooking
