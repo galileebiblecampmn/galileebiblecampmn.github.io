@@ -68,6 +68,7 @@ June 20-24 Teen Camp
 June 25 Bible Camp Sunday  
 June 26-29 Preteen Camp  
 July 12-16 Family Camp  
+July 17-23 Family Reunion
 July 28-29 WMF  
 July 31 - August 4 4H  
 August 11-13 Strathcona Group  
