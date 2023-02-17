@@ -64,6 +64,7 @@ April 15 Men Alive Retreat
 May 3-7 Scrapbooking  
 June 4 Fundraiser  
 June 9-11 Wedding  
+June 15-19 Family Reunion
 June 20-24 Teen Camp  
 June 25 Bible Camp Sunday  
 June 26-29 Preteen Camp  
