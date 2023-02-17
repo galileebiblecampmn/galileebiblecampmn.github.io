@@ -31,4 +31,4 @@ Greenbush, MN 56726
 
 #### Downloads
 
-[Galilee Bible Camp Brochure 2022](/files/galilee-bible-camp-2023-brochure.pdf)
+[Galilee Bible Camp Brochure 2023](/files/galilee-bible-camp-2023-brochure.pdf)
