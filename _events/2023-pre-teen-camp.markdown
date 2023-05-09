@@ -24,7 +24,7 @@ Pre-registration by June 7th is preferred.
 Make checks payable to:  
 NW MN District Bible Camp
 
-Pre-Teen Camp (4th–6th grades)
+Pre-Teen Camp (4th–6th grades)  
 Before June 7th: $150  
 After June 7th: $160
 
