@@ -12,7 +12,7 @@ Brett Erickson
 
 #### Speaker
 
-TBD
+Pastor Erin Tormanen
 
 #### Online Registration
 
@@ -24,7 +24,7 @@ Pre-registration by June 7th is preferred.
 Make checks payable to:  
 NW MN District Bible Camp
 
-Teen Camp (Finished 7th grade–12th grade):  
+Pre-Teen Camp (4th–6th grades)
 Before June 7th: $150  
 After June 7th: $160
 
