@@ -48,7 +48,15 @@ layout: default
           {% for item in sorted %}
             <tr>
               <td>{{ item.title }}</td>
-              <td>{{ item.start-date | date: "%B %d" }} - {{ item.end-date | date: "%d, %Y"}}</td>
+              {% assign startMonth = item.start-date | date: "%B" %} 
+              {% assign endMonth = item.end-date | date: "%B" %} 
+              {% if item.start-date == item.end-date %}
+                <td>{{ item.start-date | date: "%B %d, %Y" }}</td>
+              {% elsif startMonth == endMonth %}
+                <td>{{ item.start-date | date: "%B %d" }} - {{ item.end-date | date: "%d, %Y" }}</td>
+              {% else %}
+                <td>{{ item.start-date | date: "%B %d" }} - {{ item.end-date | date: "%B %d, %Y" }}</td>
+              {% endif %}
               <td><a class="uk-link" href="{{ item.url |relevant_url }}">Learn More</a></td>
             </tr>
           {% endfor %}
