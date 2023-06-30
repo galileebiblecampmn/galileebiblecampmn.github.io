@@ -4,6 +4,8 @@ start-date: 2023-08-06
 end-date: 2023-08-11
 ---
 
+<div uk-alert class="uk-alert-danger"><b>Notice: Canceled for 2023</b></div>
+
 August 6 - 11, 2023
 
 <div class="uk-grid">
@@ -46,10 +48,6 @@ Amy Dalager has long performance experience in her early life as an actress, vio
 In addition to her teaching and directing work at SAC High School, Amy runs a month-long drama club each spring for SAC elementary school students. She has also worked five summers at Trollwood Performing Arts School (Moorhead, MN) as a music teacher and acting coach for their ArtSpark program, a theater camp for elementary-age actors.
 
 A Christian since her baptism, Amy is excited to bring her love of theater and storytelling into the realm of Christian ministry. She has a heart for the clear preaching of the Word, and is looking forward to bringing the message of God's saving grace to the actors, crew members, and audiences at camp this summer.
-
-#### Online Registration
-
-[Register Online Here](https://forms.gle/hXuzoP6CQr3g4jCo6)
 
 #### Cost/Payment
 
