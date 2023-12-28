@@ -28,7 +28,7 @@ order: 2
             </tr>
             <tr>
                 <td>Boys and Girls Dorms</td>
-                <td>$12 for District Campers<br>$15 for Non-District Campers</td>
+                <td>$15 for District Campers<br>$20 for Non-District Campers</td>
             </tr>
             <tr>
                 <td>Staff Cabin</td>
