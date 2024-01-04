@@ -58,7 +58,7 @@ P.O. Box 3 Greenbush, MN 56726
 </div>
 </div>
 
-### Dates already taken for 2023
+### Dates already taken for 2024
 
 <table class="uk-table uk-table-small uk-table-responsive">
     <thead>
