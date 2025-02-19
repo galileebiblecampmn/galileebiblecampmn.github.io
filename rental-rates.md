@@ -32,15 +32,15 @@ order: 2
             </tr>
             <tr>
                 <td>Staff Cabin</td>
-                <td>$120/day (Max. 10 people)</td>
+                <td>$150/day (Max. 10 people)</td>
             </tr>
             <tr>
                 <td>Cook's Cabin</td>
-                <td>$80/day (Max. 6 people)</td>
+                <td>$100/day (Max. 6 people)</td>
             </tr>
             <tr>
                 <td>Speaker's Cabin</td>
-                <td>$80/day (Max 6 people)</td>
+                <td>$100/day (Max 6 people)</td>
             </tr>
         </tbody>
     </table>
