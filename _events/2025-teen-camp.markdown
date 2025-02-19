@@ -18,3 +18,5 @@ Nick Schultz
 #### Registration
 
 $200 (Early registration: $180)
+
+Online registration coming soon

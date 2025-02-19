@@ -18,3 +18,5 @@ Pastor Scott Erickson
 #### Registration
 
 $180 (Early registration: $160)
+
+Online registration coming soon
