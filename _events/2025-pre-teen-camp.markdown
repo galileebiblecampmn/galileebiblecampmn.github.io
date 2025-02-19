@@ -22,3 +22,7 @@ $180 (Early registration: $160)
 ### Online Registration
 
 [Register Online Here](https://docs.google.com/forms/d/1eBUuQNicCnRe86I3dgl2pYl19YlbArJFrpxTu69_bZY/viewform?edit_requested=true#responses)
+
+#### Downloads
+
+[Galilee Bible Camp Brochure 2025](/files/galilee-bible-camp-2025-brochure.pdf)
