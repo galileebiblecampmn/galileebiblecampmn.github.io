@@ -2,6 +2,8 @@
 title: 'History'
 layout: page
 order: 4
+description: History of Galilee Bible Camp in Lake Bronson, Minnesota, owned by the Galilee Bible Camp Corporation (Northwest Minnesota District, AFLC).
+image: /assets/images/chapel-1.jpg
 ---
 
 ### Brief history of Galilee Bible Camp

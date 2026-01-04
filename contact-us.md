@@ -2,6 +2,8 @@
 title: 'Contact Us'
 layout: page
 order: 5
+description: Contact Galilee Bible Camp in Lake Bronson, Minnesota for camp details, rentals, and directions.
+image: /assets/images/dining_hall.jpg
 ---
 
 <div class="uk-grid uk-child-width-1-2@m uk-width-1-1" uk-grid>
