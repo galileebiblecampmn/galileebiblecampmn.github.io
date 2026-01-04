@@ -2,6 +2,8 @@
 title: 'Rentals'
 layout: page
 order: 2
+description: Rental rates for campsites, camper hookups, dorms, and cabins at Galilee Bible Camp near Lake Bronson, Minnesota.
+image: /assets/images/camping1.jpg
 ---
 
 <div class="uk-grid">

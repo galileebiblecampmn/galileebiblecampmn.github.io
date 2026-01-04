@@ -2,6 +2,8 @@
 title: "Buildings"
 layout: page
 order: 3
+description: Cabins, dorms, chapel, dining hall, bathhouse, and campsites available at Galilee Bible Camp in Lake Bronson State Park, Minnesota.
+image: /assets/images/chapel-2.jpg
 ---
 
 **The Speakers Cabin** is insulated and can be heated with a gas furnace. There are 3 double beds and 2 single beds in the 3 bedrooms. The bathroom has a shower adjoining a 10' x 16' living room.

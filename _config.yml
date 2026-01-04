@@ -14,13 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Galilee Bible Camp
-email: your-email@example.com
+email: ''
 description: >- # this means to ignore newlines until "baseurl:"
-  Located just three miles off Minnesota Highway 59, our camp sits on 10 scenic acres within Lake Bronson State Park. 
-  Nestled along the shores of Lake Bronson, we offer a peaceful retreat surrounded by nature. 
-  Please note that the lake is currently being drained for dam construction and will be off-limits in 2025.
+  Galilee Bible Camp is a Christian Bible camp in Lake Bronson State Park near Lake Bronson, Minnesota.
+  We host summer camps for teens (finished 7th–12th grade), pre-teens (4th–6th grades), and a Family Bible Camp,
+  with Bible teaching, worship, recreation, and fellowship in a beautiful outdoor setting.
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://galileebiblecampmn.org' # the base hostname & protocol for your site, e.g. http://example.com
+lang: en-US
+logo: /assets/images/1002884_015.JPG
+image: /assets/images/1002884_015.JPG
+
+twitter:
+  card: summary_large_image
 
 # Build settings
 markdown: kramdown
@@ -49,6 +55,12 @@ collections:
 defaults:
   - scope:
       path: ''
+      type: pages
+    values:
+      image: /assets/images/1002884_015.JPG
+  - scope:
+      path: ''
       type: events
     values:
       layout: page
+      image: /assets/images/1002884_015.JPG
