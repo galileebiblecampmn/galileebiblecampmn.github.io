@@ -30,7 +30,7 @@ Greenbush, MN 56726
 
 #### Online Registration
 
-<a class="uk-button uk-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc0ciWOSRv0Q3AQBxQ2ac2RoZ8KYphRfmrsbWh4iCi_2qC9nA/viewform">Register Online</a>
+<a class="uk-button uk-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc0ciWOSRv0Q3AQBxQ2ac2RoZ8KYphRfmrsbWh4iCi_2qC9nA/viewform" target="_blank" rel="noopener">Register Online <span uk-icon="icon: link-external"></span></a>
 
 #### Downloads
 
