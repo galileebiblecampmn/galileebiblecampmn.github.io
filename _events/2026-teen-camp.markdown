@@ -34,7 +34,7 @@ Greenbush, MN 56726
 
 #### Downloads
 
-[<span uk-icon="icon: file-pdf"></span> Galilee Bible Camp Brochure 2026 (PDF)](/files/galilee-bible-camp-2026-brochure.pdf)
+[Galilee Bible Camp Brochure 2026 (PDF)](/files/galilee-bible-camp-2026-brochure.pdf)
 
 #### Speaker
 
