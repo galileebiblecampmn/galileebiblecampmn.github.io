@@ -30,11 +30,11 @@ Greenbush, MN 56726
 
 #### Online Registration
 
-<a class="uk-button uk-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc0ciWOSRv0Q3AQBxQ2ac2RoZ8KYphRfmrsbWh4iCi_2qC9nA/viewform" target="_blank" rel="noopener">Register Online <span uk-icon="icon: link-external"></span></a>
+<a class="uk-button uk-button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc0ciWOSRv0Q3AQBxQ2ac2RoZ8KYphRfmrsbWh4iCi_2qC9nA/viewform" target="_blank" rel="noopener">Register Online <span uk-icon="icon: link"></span></a>
 
 #### Downloads
 
-[Galilee Bible Camp Brochure 2026 (PDF)](/files/galilee-bible-camp-2026-brochure.pdf)
+[<span uk-icon="icon: file-pdf"></span> Galilee Bible Camp Brochure 2026 (PDF)](/files/galilee-bible-camp-2026-brochure.pdf)
 
 #### Speaker
 
