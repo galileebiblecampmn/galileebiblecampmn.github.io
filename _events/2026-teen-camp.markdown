@@ -30,7 +30,7 @@ Greenbush, MN 56726
 
 #### Online Registration
 
-[Register Online Here](https://galileebiblecampmn.org)
+[Register Online Here](https://docs.google.com/forms/d/e/1FAIpQLSc0ciWOSRv0Q3AQBxQ2ac2RoZ8KYphRfmrsbWh4iCi_2qC9nA/viewform)
 
 #### Downloads
 
