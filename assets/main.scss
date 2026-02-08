@@ -57,3 +57,126 @@ $base-heading-font-family:                       'Roboto', Sans-Serif;
 
 // 4. Import UIkit.
 @import "uikit.scss";
+
+// Rentals availability calendar
+.rental-availability-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: 8px;
+}
+
+.rental-availability-legend .legend-item {
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.95rem;
+  gap: 8px;
+}
+
+.legend-swatch {
+  background: #fff;
+  border: 2px solid #8a7a55;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 18px;
+  width: 18px;
+}
+
+.legend-booked {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(203, 189, 154, 0.55) 0,
+    rgba(203, 189, 154, 0.55) 6px,
+    rgba(203, 189, 154, 0.2) 6px,
+    rgba(203, 189, 154, 0.2) 12px
+  );
+}
+
+.legend-available {
+  background: #fff;
+  border-color: #cfcfcf;
+}
+
+.legend-today {
+  border-color: #1e87f0;
+  box-shadow: inset 0 0 0 2px rgba(30, 135, 240, 0.2);
+}
+
+.rental-availability-calendar {
+  margin-top: 12px;
+}
+
+.rental-availability-calendar .fc-daygrid-day.rental-day-booked .fc-daygrid-day-frame {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(203, 189, 154, 0.45) 0,
+    rgba(203, 189, 154, 0.45) 6px,
+    rgba(203, 189, 154, 0.18) 6px,
+    rgba(203, 189, 154, 0.18) 12px
+  );
+  border: 2px solid #8a7a55;
+}
+
+.rental-availability-calendar .fc-daygrid-day.rental-day-available .fc-daygrid-day-frame {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+
+.rental-availability-calendar .fc-bg-event {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(203, 189, 154, 0.35) 0,
+    rgba(203, 189, 154, 0.35) 6px,
+    rgba(203, 189, 154, 0.15) 6px,
+    rgba(203, 189, 154, 0.15) 12px
+  );
+  border: 1px solid rgba(138, 122, 85, 0.6);
+  opacity: 0.5;
+}
+
+.rental-availability-calendar .fc-day-today .fc-daygrid-day-frame {
+  outline: 2px solid #1e87f0;
+  outline-offset: -2px;
+}
+
+.rental-availability-calendar .fc-daygrid-day.rental-day-cell:focus {
+  outline: 3px solid #1e87f0;
+  outline-offset: -3px;
+}
+
+.rental-availability-calendar .fc-daygrid-day.rental-day-booked {
+  cursor: pointer;
+}
+
+.rental-calendar-popover {
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  color: #333;
+  display: none;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 260px;
+  padding: 10px 12px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.rental-calendar-popover.is-visible {
+  display: block;
+}
+
+.rental-calendar-popover .rental-popover-date {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.rental-calendar-popover ul {
+  margin: 4px 0 0 18px;
+  padding: 0;
+}
+
+.rental-calendar-popover li {
+  margin: 2px 0;
+}
