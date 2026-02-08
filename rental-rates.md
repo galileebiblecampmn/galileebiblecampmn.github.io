@@ -149,7 +149,8 @@ P.O. Box 3 Greenbush, MN 56726
     const dateFormatter = new Intl.DateTimeFormat('en-US', {
       month: 'long',
       day: 'numeric',
-      year: 'numeric'
+      year: 'numeric',
+      timeZone: 'UTC'
     });
 
     function parseIsoDate(isoDate) {
