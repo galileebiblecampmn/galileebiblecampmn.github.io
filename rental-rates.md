@@ -82,6 +82,22 @@ P.O. Box 3 Greenbush, MN 56726
     </div>
   </div>
 
+  <div class="rental-calendar-controls uk-grid-small uk-flex-middle uk-margin-small-top" uk-grid>
+    <div class="uk-width-auto">
+      <button type="button" class="uk-button uk-button-default uk-button-small" id="rental-calendar-prev" aria-controls="rental-availability-calendar">
+        Previous
+      </button>
+    </div>
+    <div class="uk-width-expand uk-text-center">
+      <span id="rental-calendar-title" class="rental-calendar-title" aria-live="polite"></span>
+    </div>
+    <div class="uk-width-auto">
+      <button type="button" class="uk-button uk-button-default uk-button-small" id="rental-calendar-next" aria-controls="rental-availability-calendar">
+        Next
+      </button>
+    </div>
+  </div>
+
   <div id="rental-availability-calendar" class="rental-availability-calendar" role="region" aria-label="Rental availability calendar"></div>
   <div id="rental-calendar-popover" class="rental-calendar-popover" role="dialog" aria-live="polite" aria-hidden="true"></div>
 
@@ -125,6 +141,9 @@ P.O. Box 3 Greenbush, MN 56726
 
     const calendarEl = document.getElementById('rental-availability-calendar');
     const popoverEl = document.getElementById('rental-calendar-popover');
+    const prevButton = document.getElementById('rental-calendar-prev');
+    const nextButton = document.getElementById('rental-calendar-next');
+    const titleEl = document.getElementById('rental-calendar-title');
     if (!calendarEl) {
       return;
     }
@@ -307,28 +326,28 @@ P.O. Box 3 Greenbush, MN 56726
 
     let calendar = null;
 
+    function bindCalendarControl(buttonEl, action) {
+      if (!buttonEl) {
+        return;
+      }
+      let lastTouch = 0;
+      buttonEl.addEventListener('touchstart', (event) => {
+        lastTouch = Date.now();
+        event.preventDefault();
+        action();
+      }, { passive: false });
+      buttonEl.addEventListener('click', () => {
+        if (Date.now() - lastTouch < 500) {
+          return;
+        }
+        action();
+      });
+    }
+
     calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
       initialDate: '2026-04-01',
-      customButtons: {
-        prevMonth: {
-          text: 'Prev',
-          click: () => {
-            calendar.prev();
-          }
-        },
-        nextMonth: {
-          text: 'Next',
-          click: () => {
-            calendar.next();
-          }
-        }
-      },
-      headerToolbar: {
-        left: 'prevMonth',
-        center: 'title',
-        right: 'nextMonth'
-      },
+      headerToolbar: false,
       showNonCurrentDates: false,
       fixedWeekCount: false,
       height: 'auto',
@@ -344,6 +363,11 @@ P.O. Box 3 Greenbush, MN 56726
         start: booking.start_date,
         end: addDays(booking.end_date, 1)
       })),
+      datesSet: (info) => {
+        if (titleEl) {
+          titleEl.textContent = info.view.title;
+        }
+      },
       dayCellDidMount: (info) => {
         const isoDate = info.dateStr;
         const titles = bookingsByDate[isoDate] || [];
@@ -402,5 +426,8 @@ P.O. Box 3 Greenbush, MN 56726
     });
 
     calendar.render();
+
+    bindCalendarControl(prevButton, () => calendar.prev());
+    bindCalendarControl(nextButton, () => calendar.next());
   });
 </script>
