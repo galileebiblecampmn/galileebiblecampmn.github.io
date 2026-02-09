@@ -59,11 +59,11 @@ P.O. Box 3 Greenbush, MN 56726
 </div>
 </div>
 
-### Dates already taken for 2025
+### Dates already taken for 2026
 
 <div class="uk-card uk-card-default uk-card-body uk-margin">
   <p class="uk-margin-small">
-    The calendar below shows booked dates between April and September 2025. Hover or tap a date to see event details.
+    The calendar below shows booked dates between April and September 2026. Hover or tap a date to see event details.
     Dates not shaded are available.
   </p>
 
@@ -305,13 +305,29 @@ P.O. Box 3 Greenbush, MN 56726
       }
     });
 
-    const calendar = new FullCalendar.Calendar(calendarEl, {
+    let calendar = null;
+
+    calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
-      initialDate: '2025-04-01',
+      initialDate: '2026-04-01',
+      customButtons: {
+        prevMonth: {
+          text: 'Prev',
+          click: () => {
+            calendar.prev();
+          }
+        },
+        nextMonth: {
+          text: 'Next',
+          click: () => {
+            calendar.next();
+          }
+        }
+      },
       headerToolbar: {
-        left: 'prev',
+        left: 'prevMonth',
         center: 'title',
-        right: 'next'
+        right: 'nextMonth'
       },
       showNonCurrentDates: false,
       fixedWeekCount: false,
@@ -320,8 +336,8 @@ P.O. Box 3 Greenbush, MN 56726
       editable: false,
       eventDisplay: 'background',
       validRange: {
-        start: '2025-04-01',
-        end: '2025-10-01'
+        start: '2026-04-01',
+        end: '2026-10-01'
       },
       events: bookings.map((booking) => ({
         title: booking.title,

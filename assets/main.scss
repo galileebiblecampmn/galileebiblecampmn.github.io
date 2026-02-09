@@ -106,6 +106,15 @@ $base-heading-font-family:                       'Roboto', Sans-Serif;
   margin-top: 12px;
 }
 
+.rental-availability-calendar .fc-header-toolbar {
+  position: relative;
+  z-index: 2;
+}
+
+.rental-availability-calendar .fc-toolbar button {
+  pointer-events: auto;
+}
+
 .rental-availability-calendar .fc-daygrid-day.rental-day-booked .fc-daygrid-day-frame {
   background-image: repeating-linear-gradient(
     45deg,
