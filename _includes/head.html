@@ -5,6 +5,9 @@
   {%- seo -%}
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- if page.fullcalendar -%}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.css">
+  {%- endif -%}
   <script src="/assets/uikit.min.js"></script>
   <script src="/assets/uikit-icons.min.js"></script>
   {%- feed_meta -%}
