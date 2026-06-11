@@ -17,8 +17,7 @@ title: Galilee Bible Camp
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Located just three miles off Minnesota Highway 59, our camp sits on 10 scenic acres within Lake Bronson State Park. 
-  Nestled along the shores of Lake Bronson, we offer a peaceful retreat surrounded by nature. 
-  Please note that the lake is currently being drained for dam construction and will be off-limits in 2025.
+  Nestled along the shores of Lake Bronson, we offer a peaceful retreat surrounded by nature.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
